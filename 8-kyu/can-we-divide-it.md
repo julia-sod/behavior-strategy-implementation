@@ -55,10 +55,12 @@ let isDivideBy = (number, a, b) => {
 
 ### Strategy
 
-This solution is very easy and visual, it shows every step clearly. Yeti used the remainder operator that returns the remainder left over when one operand is divided by a second operand. 
+This solution is very easy and visual, it shows every step clearly. Function checks if one number can be divided by second and third given numbers.
 
 
 ### Implementation
+
+Yeti used the remainder operator that returns the remainder left over when one operand is divided by a second operand. As it is equal to 0, a number is divisible.
 
 
 **if/else statement**: checks if the results of both remainder operations are equal to 0.
@@ -67,11 +69,10 @@ This solution is very easy and visual, it shows every step clearly. Yeti used th
 
 This strategy could also be implemented with these Implementation ...
 
-- conditional operator ?:
+- conditional operator `?:`
 
 
 ---
-
 
 
 ## [altirovskimiki](https://www.codewars.com/kata/reviews/5a2b77018b2221499d000960/groups/5a2c4ac6971dc4bd9f001d80)
@@ -84,14 +85,24 @@ function isDivideBy(number, a, b) {
 
 ### Strategy
 
-In this solution a remainder operator is used too but the difference is, that the sum of both results is checked.
+Function shows if one number can be divided by second and third given numbers by checking their sum.
 
 ### Implementation
+
+In this solution a remainder operator is used too but the difference is, that the sum of both results is checked.
 
 
 **operator precedence and strict equality**: with their help checking if the sum result is strictly equal to 0 and returns result as true
 
+### Possible Refactors
+
+This strategy could also be implemented with these Implementation ...
+
+- `if/else` statement
 
 
 ---
 
+## Notes
+
+It's quite a simple challenge that helps to understand remainder operator better.
